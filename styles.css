@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #a100ff; /* PURPLE background color */
+}
+
+.container {
+    max-width: 600px;
+    margin: 80px auto 20px; /* Adjusted margin */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.form label,
+.form input {
+    display: block;
+    margin: 10px 0;
+}
+
+.form button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Add error message if task score or number of tasks is invalid */
+.form input.invalid {
+    border-color: red;
+}
+
+.form label.invalid {
+    color: red;
+}
+
+/* Add styles for error messages */
+.result.failure {
+    color: red;
+}
+
+/* Add styles for success messages */
+.result.success {
+    color: green;
+}
